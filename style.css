@@ -1,0 +1,122 @@
+
+
+/* h1{
+    background-color: brown;
+    text-align: center;
+} */
+div marquee{
+    color:red;
+    scrollamount:"12";
+}
+
+body{
+    background-color: cadetblue;
+    align:center;
+    
+}
+.row3 img{
+    height:100%;
+}
+
+p{
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    font-variant:small-caps;
+    font-weight: lighter;
+    
+}
+
+/* ul{
+    list-style-type:None;
+    background-color: darkgoldenrod;
+}
+ul a{
+    display : inline-block;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+} */
+ul a:hover{
+    colour:green;
+    background-color: darkred;
+}
+header{
+    padding: 0px;
+    align: center;
+    text-align: center;
+    height:100px;
+    background-color: saddlebrown;
+    
+}
+
+nav ul a{
+    margin: 0px;
+    padding:15px 25px;
+    display:inline-block;
+    list-style-type:None;
+    text-decoration:none;
+    color:white;
+    
+}
+nav {
+    background-color: darkolivegreen;
+    padding:0px;
+    overflow: hidden;
+    margin:0px;
+}
+div{
+    padding:0px;
+}
+
+ .row1 div img{
+     display:inline;
+
+ }
+ 
+.text-left{
+    float:left;
+}
+.text-right{
+    float:right;
+}
+body{
+    margin:0px;
+}
+.card-block{
+   
+    border-color: darkolivegreen;
+    border-width: 10px;
+    border:100px;
+}
+
+.row-2{
+    
+    border-color: darkolivegreen;
+    border-width: 10px;
+    border:100px;
+ }
+ .courses{
+     border-radius: 20px;
+     border-color: pink;
+     border-width: 20px;
+     text-align: :center;
+     
+ }
+ .card a{
+     text-decoration: none;
+ }
+ .card button{
+     background-color:green;
+ }
+ .card{
+     text-align: center;
+ }
+ .card img:hover{
+    
+ }
+ .card img{
+     margin: 5px;
+ }
+ .block{
+     display:inline;
+ }
