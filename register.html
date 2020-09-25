@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <h1 color="blue" align="center">Registeration Form</h1>
+        <script>
+            function emailval(){
+              var em=document.getElementById('eml').value;
+              var mno=document.getElementById('mbno').value;
+              email='/^[a-z0-9A-Z._-]{6,12}[@][a-z]{2,13}[.][a-z]{2,6}$/';
+              mobileno='/[6-9][0-9]{9}$/'
+               if (email.test(em) && mobileno.test(mno))
+               {
+                   window.alert("valid");
+               }
+            else{
+                window.alert("Invalid");
+            }
+        </script>
+
+    </head>
+    <style>
+        fieldset{
+            align:center;
+            color: white;
+            background-color:lightbrown;
+            border-radius:15%;
+            width:400px;
+            background-color: lightseagreen;
+            margin: 0pxs;
+        
+        }
+         form{
+             text-align:center;
+             
+             border-radius: 80%;
+             border-right: 50px;
+         }
+        body{
+           background-image: url("nature.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            align:center;
+            text-align:center;
+            background-color:coffie;
+        }
+    </style>
+    <body>
+
+    
+        <form >
+            <fieldset>
+            </br>
+       <legend align="center" text-color="black">Please Enter Your Detail To Register</legend>
+        First Name   &nbsp;<input type="text" name=""></br></br>
+        
+        Last Name     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name=""></br></br>
+    
+        Enter your Email Id <input type="email" id="eml" name=""></br></br>
+        Password    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="psword"></br></br>
+        Re-type password&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="psword" ></br></br>
+        Male<input type="radio" name="sex" value=""> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        Female<input type="radio" name="sex" value=""></br></br>
+    
+        <label>Your heighest qualification:</label>
+
+        <select name="qualification" id="cars">
+          <option value="B.Tech">B.Tech</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="MCA">MCA</option>
+        <option value="MBA">MBA</option>
+        </select>
+        </br>
+        Enter your heighest qualification % <input type="text"></br></br>
+        Enter your 12<subscript>th</subscript>%  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"></br></br>
+        Enter your 10<superscript>th</superscript>%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text"></br></br>
+        Enter your mobile number&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="mbno"></br></br>
+        Upload your photo&nbsp;&nbsp;&nbsp;<input type="file" id="upload"></br></br>
+         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="Sub" value="submit" align="center" onclick="emailval()">
+            </fieldset>
+            </form>
+    </body>
+</html>
